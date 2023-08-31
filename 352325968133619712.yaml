@@ -40,6 +40,7 @@ parameters:
     multiline: true
     type: string
 name: agent
+description: 简单的agent，来自https://www.zhihu.com/question/604480991/answer/3080252928
 id: "352325968133619712"
-updatedAt: 2023-08-31T05:50:23.756Z
+updatedAt: 2023-08-31T05:50:51.174Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
