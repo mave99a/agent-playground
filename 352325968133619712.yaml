@@ -10,10 +10,10 @@ prompts:
       ---
       Question: 我需要回答的问题
       Thought: 回答这个上述我需要做些什么
-      Action:  "{{tool_names}}" 中的其中一个工具名
+      Action:  其中一个工具名
       Action Input: 选择工具所需要的输入
       Observation: 选择工具返回的结果
-      ...（这个思考/行动/行动输入/观察可以重复N次）
+      ...（这个思考/行动/行动输入/观察可以重复多次）
       Thought: 我现在知道最终答案
       Final Answer: 原始输入问题的最终答案
       ---
@@ -29,16 +29,17 @@ parameters:
     value: |-
       搜索工具： 可以搜索各种结果
       笔记本： 可以记录笔记
-    type: string
-  tool_names:
+      写信：写信给别人
+      游行： 向政府和公众表达自己的呼声
+      记者会：让媒体表达公众的呼声
     type: string
   input:
-    value: 如何泡妞
+    value: 如何发现ABT是不是一个好的投资
     type: string
   agent_scratchpad:
     multiline: true
     type: string
 name: agent
 id: "352325968133619712"
-updatedAt: 2023-08-31T05:42:45.840Z
+updatedAt: 2023-08-31T05:50:23.756Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
