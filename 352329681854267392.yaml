@@ -121,7 +121,12 @@ prompts:
       Ensure the response can be parsed by Python json.loads
     role: system
 name: autogpt
-parameters: {}
+parameters:
+  size:
+    type: string
+  number:
+    type: string
+type: image
 id: "352329681854267392"
-updatedAt: 2023-08-31T05:59:43.319Z
+updatedAt: 2023-08-31T06:04:42.666Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
