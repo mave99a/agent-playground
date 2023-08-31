@@ -1,5 +1,44 @@
+prompts:
+  - id: YhRhlTzPu141t-9rIWzjd
+    content: |
+      按照给定的格式回答以下问题。你可以使用下面这些工具：
+
+      {{tools}}
+
+      回答时需要遵循以下用---括起来的格式：
+
+      ---
+      Question: 我需要回答的问题
+      Thought: 回答这个上述我需要做些什么
+      Action:  "{{tool_names}}" 中的其中一个工具名
+      Action Input: 选择工具所需要的输入
+      Observation: 选择工具返回的结果
+      ...（这个思考/行动/行动输入/观察可以重复N次）
+      Thought: 我现在知道最终答案
+      Final Answer: 原始输入问题的最终答案
+      ---
+
+      现在开始回答，记得在给出最终答案前多按照指定格式进行一步一步的推理。
+
+      Question: {{input}}
+      {{agent_scratchpad}}
+    role: system
+parameters:
+  tools:
+    multiline: true
+    value: |-
+      搜索工具： 可以搜索各种结果
+      笔记本： 可以记录笔记
+    type: string
+  tool_names:
+    type: string
+  input:
+    value: 如何泡妞
+    type: string
+  agent_scratchpad:
+    multiline: true
+    type: string
+name: agent
 id: "352325968133619712"
-createdAt: 2023-08-31T05:37:36.703Z
-updatedAt: 2023-08-31T05:37:36.703Z
-createdBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
+updatedAt: 2023-08-31T05:42:45.840Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
