@@ -1,6 +1,36 @@
 name: evaluate optoins
+prompts:
+  - id: o8hbOyH7fdgfJRUF2exbE
+    content: >
+      I want to {{goal}}.
+
+
+      Can you please comment on the pros and cons of each of the following options, and then pick the best option?
+
+
+      {{options}}
+
+
+      Please discuss each option very briefly (one line for pros, one for cons).
+
+
+      end by saying Best=X, where X is the best option.
+
+
+      lets think step by step
+    role: system
+parameters:
+  goal:
+    value: learn swim
+    type: string
+  options:
+    multiline: true
+    value: |
+      1. watch swim film
+      2. practise everyday 
+      3. start swim in the sea
+      4. swim 24x7
+    type: string
 id: "352702602833559552"
-createdAt: 2023-09-01T06:34:13.413Z
-updatedAt: 2023-09-01T06:34:13.413Z
-createdBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
+updatedAt: 2023-09-01T07:35:18.510Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
