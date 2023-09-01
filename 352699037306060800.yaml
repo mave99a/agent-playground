@@ -7,11 +7,11 @@ prompts:
     content: |-
       I want to {{goal}}.
       Can you please generate 5 option for how to accomplish this?
-      Please make the option very short, at most one line.
+      Please make the option very short,  one option each line.
     role: user
 parameters:
   goal:
-    value: read more book
+    value: enjoy life
     type: string
 name: Archive a user goal
 next:
@@ -19,5 +19,5 @@ next:
   name: evaluate optoins
   outputKey: options
 id: "352699037306060800"
-updatedAt: 2023-09-01T06:34:22.323Z
+updatedAt: 2023-09-01T08:05:17.188Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
