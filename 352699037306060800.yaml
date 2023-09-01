@@ -17,7 +17,7 @@ name: Archive a user goal
 next:
   id: "352699552572112896"
   name: Elaborate goal
-  outputKey: suggestion
+  outputKey: plan
 id: "352699037306060800"
-updatedAt: 2023-09-01T06:22:24.330Z
+updatedAt: 2023-09-01T06:23:55.720Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
