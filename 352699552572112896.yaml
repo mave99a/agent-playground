@@ -1,6 +1,13 @@
 name: Elaborate goal
+prompts:
+  - id: i-yidyq4umNOpUNA72fYW
+    content: |-
+      I want to {{goal}}. 
+      Here is my plan:
+    role: user
+parameters:
+  goal:
+    type: string
 id: "352699552572112896"
-createdAt: 2023-09-01T06:22:06.174Z
-updatedAt: 2023-09-01T06:22:06.174Z
-createdBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
+updatedAt: 2023-09-01T06:23:33.765Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
