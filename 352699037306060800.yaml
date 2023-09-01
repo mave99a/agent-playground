@@ -6,7 +6,7 @@ prompts:
   - id: -IU6JieUQzH-nuKSRT18q
     content: |-
       I want to {{goal}}.
-      Can you please generate one option for how to accomplish this?
+      Can you please generate 5 option for how to accomplish this?
       Please make the option very short, at most one line.
     role: user
 parameters:
@@ -15,9 +15,9 @@ parameters:
     type: string
 name: Archive a user goal
 next:
-  id: "352699552572112896"
-  name: Elaborate goal
-  outputKey: plan
+  id: "352702602833559552"
+  name: evaluate optoins
+  outputKey: options
 id: "352699037306060800"
-updatedAt: 2023-09-01T06:23:55.720Z
+updatedAt: 2023-09-01T06:34:22.323Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
