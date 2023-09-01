@@ -1,5 +1,23 @@
+versionNote: Microsoft Guidance Style prompt
+prompts:
+  - id: fkgEth96WUPrPzmOWr7Fe
+    content: You are a helpful agent
+    role: system
+  - id: -IU6JieUQzH-nuKSRT18q
+    content: |-
+      I want to {{goal}}.
+      Can you please generate one option for how to accomplish this?
+      Please make the option very short, at most one line.
+    role: user
+parameters:
+  goal:
+    value: read more book
+    type: string
+name: Archive a user goal
+next:
+  id: "352699552572112896"
+  name: Elaborate goal
+  outputKey: suggestion
 id: "352699037306060800"
-createdAt: 2023-09-01T06:20:03.325Z
-updatedAt: 2023-09-01T06:20:03.325Z
-createdBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
+updatedAt: 2023-09-01T06:22:24.330Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
