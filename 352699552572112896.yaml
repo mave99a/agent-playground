@@ -3,11 +3,14 @@ prompts:
   - id: i-yidyq4umNOpUNA72fYW
     content: |-
       I want to {{goal}}. 
-      Here is my plan:
+      Here is my plan: {{plan}}
+      Please elaborate on this plan, and tell me how to best accomplish it.
     role: user
 parameters:
   goal:
     type: string
+  plan:
+    type: string
 id: "352699552572112896"
-updatedAt: 2023-09-01T06:23:33.765Z
+updatedAt: 2023-09-01T06:24:23.664Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
