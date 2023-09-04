@@ -1,4 +1,4 @@
-name: "story- "
+name: story- yuzu
 description: Char from RisuAI
 prompts:
   - id: ZDUOHa5_8attNHGky-5A5
@@ -60,5 +60,5 @@ next:
   name: translate to chinese
   outputKey: story
 id: "353994123339890688"
-updatedAt: 2023-09-04T20:07:32.213Z
+updatedAt: 2023-09-04T20:07:53.961Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
