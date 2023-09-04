@@ -49,6 +49,10 @@ parameters:
     value: 老冒
     type: string
 name: "story "
+next:
+  id: "353993117277356032"
+  name: translate to chinese
+  outputKey: story
 id: "353970420367491072"
-updatedAt: 2023-09-04T20:02:02.075Z
+updatedAt: 2023-09-04T20:02:25.999Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
