@@ -1,6 +1,14 @@
 name: translate to chinese
+prompts:
+  - id: tYRuycSMQ7nGDpaYstlWx
+    content: |-
+      把下面的故事翻译成中文
+
+      {{story}}
+    role: system
+parameters:
+  story:
+    type: string
 id: "353993117277356032"
-createdAt: 2023-09-04T20:02:16.033Z
-updatedAt: 2023-09-04T20:02:16.033Z
-createdBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
+updatedAt: 2023-09-04T20:02:49.806Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
