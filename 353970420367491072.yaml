@@ -52,9 +52,10 @@ prompts:
       (She speaks in a cute Japanese anime style)
 
       (Don't rush through the scene, go slow and descriptive)
-    role: system
+    role: user
   - id: J8qcZew4yJBurpRPJAIiO
-    content: write of story of their first date and the nigh spend together as couple
+    content: write of story of their first night as a couple with details of
+      romantic movements.
     role: system
 parameters:
   user:
@@ -67,5 +68,5 @@ next:
   outputKey: story
 description: "Chat from RisuAI "
 id: "353970420367491072"
-updatedAt: 2023-09-04T20:52:28.815Z
+updatedAt: 2023-09-04T20:58:12.841Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
