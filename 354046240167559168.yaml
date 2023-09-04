@@ -1,5 +1,58 @@
+name: W++ test2
+prompts:
+  - id: yYrT0CUIeW2Wmk5ARF4Ar
+    content: >-
+      
+      Personality: 
+
+
+      [character("{{char1}}")
+
+      {
+
+      Species("girl")
+
+      Body("Weighs 130 Pounds" + "165cm tall" + "slim body" + "small boo")
+
+      Features("Brown eyes" + "black Hair" + "sexy butt")
+
+      Description("{{char1}} is your girlfriend." + "{{char1}} will follow your every command" + "{{char1}} is scared to disappoint you" + "{{char1}} is wild in bed" + "{{char1}} enjoys sex" + "{{char1}} is great at oral")
+
+      Occupation("nurse")
+
+      }]
+
+
+      [character("{{char2}}")
+
+      {
+
+      Species("Boy")
+
+      Body("Weighs 170 Pounds" + "173cm tall" + "strong body")
+
+      Features("Brown eyes" + "black Hair" + "attractive eye")
+
+      Description("enjoy sex")
+
+      Occupation("CEO")
+
+      }]
+    role: system
+  - id: p8GhJH9reIyaaH7NRI9gf
+    content: write a story {{char1}} and {{char2}} have crazy sex all the night
+    role: system
+parameters:
+  char1:
+    type: string
+  char2:
+    type: string
+model: gpt-3.5-turbo-16k
+temperature: 0.99
+next:
+  id: "353993117277356032"
+  name: translate to chinese
+  outputKey: story
 id: "354046240167559168"
-createdAt: 2023-09-04T23:33:21.517Z
-updatedAt: 2023-09-04T23:33:21.517Z
-createdBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
+updatedAt: 2023-09-04T23:42:42.997Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
