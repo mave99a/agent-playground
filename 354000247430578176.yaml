@@ -1,4 +1,4 @@
-name: "story "
+name: story - Leonor Bennett
 description: https://www.janitorai.com/characters/75573d53-c88c-4554-bb85-a63737296230_character-leonor-bennett
 prompts:
   - id: rnvNR6SWaJggatOoAJgzA
@@ -43,5 +43,5 @@ next:
   name: translate to chinese
   outputKey: story
 id: "354000247430578176"
-updatedAt: 2023-09-04T20:34:50.072Z
+updatedAt: 2023-09-04T20:44:28.513Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
