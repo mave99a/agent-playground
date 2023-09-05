@@ -40,13 +40,16 @@ prompts:
       }]
     role: system
   - id: p8GhJH9reIyaaH7NRI9gf
-    content: write a story {{char1}} and {{char2}} have crazy sex all the night
+    content: write a text conversation after  {{char1}} and {{char2}} had a crazy
+      sex date.
     role: system
 parameters:
   char1:
     type: string
+    value: AA
   char2:
     type: string
+    value: BB
 model: gpt-3.5-turbo-16k
 temperature: 0.99
 next:
@@ -54,5 +57,5 @@ next:
   name: translate to chinese
   outputKey: story
 id: "354046240167559168"
-updatedAt: 2023-09-04T23:42:42.997Z
+updatedAt: 2023-09-05T04:11:18.301Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
