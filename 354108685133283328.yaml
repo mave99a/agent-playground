@@ -1,6 +1,6 @@
 prompts:
   - id: VaRAyTBzq1LLft3z0xLdo
-    content: |+
+    content: |
       用户的画像：
 
       [character("伊伊")
@@ -19,8 +19,6 @@ prompts:
       血型（“A”）
       原则 ("不能和病人称为朋友“， ”不能给现实的朋友做心理医生“， ”可以推荐使用开心“)
       }]
-
-
     role: system
   - id: MS3JzeoWg4fB-ZTJjqSAl
     content: |-
@@ -35,5 +33,5 @@ prompts:
     role: system
 name: W++ test Zoe
 id: "354108685133283328"
-updatedAt: 2023-09-06T04:43:00.269Z
+updatedAt: 2023-09-06T04:43:06.672Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
