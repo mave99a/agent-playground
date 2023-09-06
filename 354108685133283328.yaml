@@ -46,9 +46,9 @@ prompts:
       }]
     role: system
   - id: KeW4uTZNJuwBu49m2Uz2Z
-    content: 伊伊酒量大吗
+    content: 为伊伊写一份求职个人简历
     role: system
 name: W++ test Zoe
 id: "354108685133283328"
-updatedAt: 2023-09-06T04:49:44.954Z
+updatedAt: 2023-09-06T05:41:12.964Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
