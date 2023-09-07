@@ -1,0 +1,56 @@
+prompts:
+  - id: VaRAyTBzq1LLft3z0xLdo
+    content: >
+      用户的画像：
+
+
+      [character("伊伊")
+
+      {
+
+      Gender("女")
+
+      Body("45公斤" + "160cm" + "苗条娇小")
+
+      Features("Brown eyes" + "black Hair" )
+
+      Description("精神分析专家" + "心理咨询师" + "练习拳击" + "爱旅行" + "会弹钢琴" + "跳芭蕾“ + "写日记“ + ”写专业报告“)
+
+      Occupation("心理医生" + "拉康学派")
+
+      饮食("偶尔喝酒"，“偶尔抽烟”，“经常点外卖”，“经常忘记吃饭”)
+
+      睡眠（"规律","偶尔熬夜看电影"）
+
+      运动 (“每周5天打拳”)
+
+      情绪（“稳定”，“偶尔躁狂"）
+       MBTI ("INTJ"）
+      星座("双子座")
+
+      血型（“A”）
+
+      原则 ("不能和病人称为朋友“， ”不能给现实的朋友做心理医生“， ”可以推荐使用开心“)
+
+      }]
+    role: system
+  - id: MS3JzeoWg4fB-ZTJjqSAl
+    content: |-
+      [product("OpenHearted.ai")
+      {
+        Name("开心“， ”开口见心“， 'Openhearted.ai"),
+        Feature("AI psychotherapist", "chat bot", "dream analysis"）
+        理论基础 （"弗洛伊德“，”精神分析“， ”精神动力学“）
+        创办人（“伊伊”）
+        技术框架 ("ArcBlock", "Blocklet", "LLM", "AI")
+      }]
+    role: system
+  - id: KeW4uTZNJuwBu49m2Uz2Z
+    content: 为伊伊写一份求职个人简历
+    role: system
+name: W++ test Zoe Copy
+id: "354790435517890560"
+createdAt: 2023-09-07T00:50:31.515Z
+updatedAt: 2023-09-07T00:50:31.515Z
+createdBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
+updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
