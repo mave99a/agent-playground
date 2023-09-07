@@ -1,7 +1,7 @@
 prompts:
   - id: VaRAyTBzq1LLft3z0xLdo
     content: >
-      用户的画像：
+      人物画像：
 
 
       [character("伊伊")
@@ -34,6 +34,26 @@ prompts:
 
       }]
     role: system
+  - id: ZEzZjJ09foPKahQh_3fhL
+    content: |
+      人物画像：
+
+      [character("冒狐冲")
+      {
+      Gender("男")
+      Body("75公斤" + "173cm" + "身材健硕" + “肚子略大”)
+      Features("Brown eyes" + "black Hair" )
+      Description("" + "创业" +  "爱旅行")
+      Occupation("软件工程师" + "创业")
+      饮食("不喝酒"，“不抽烟”，“爱吃寿司”)
+      睡眠（"规律","睡得特别好"）
+      运动 (“每周5天运动”)
+      情绪（“稳定”）
+       MBTI ("INTJ"）
+      星座("射手座")
+      血型（“O”）
+      }]
+    role: system
   - id: MS3JzeoWg4fB-ZTJjqSAl
     content: |-
       [product("OpenHearted.ai")
@@ -46,11 +66,8 @@ prompts:
       }]
     role: system
   - id: KeW4uTZNJuwBu49m2Uz2Z
-    content: 为伊伊写一份求职个人简历
     role: system
-name: W++ test Zoe Copy
+name: W++ test 写小说
 id: "354790435517890560"
-createdAt: 2023-09-07T00:50:31.515Z
-updatedAt: 2023-09-07T00:50:31.515Z
-createdBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
+updatedAt: 2023-09-07T00:54:57.680Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
