@@ -53,12 +53,8 @@ prompts:
     content: write of story of their first romantic date night together
     role: system
 parameters:
-  user:
-    value: 明菜
-    type: string
-  name:
-    value: 莉香
-    type: string
+  user: {}
+  name: {}
 name: story - Rika
 next:
   id: "353993117277356032"

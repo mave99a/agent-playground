@@ -20,17 +20,8 @@ prompts:
       lets think step by step
     role: system
 parameters:
-  goal:
-    value: learn swim
-    type: string
-  options:
-    multiline: true
-    value: |
-      1. watch swim film
-      2. practise everyday 
-      3. start swim in the sea
-      4. swim 24x7
-    type: string
+  goal: {}
+  options: {}
 id: "352702602833559552"
 updatedAt: 2023-09-01T07:35:18.510Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og

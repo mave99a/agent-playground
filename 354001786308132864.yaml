@@ -44,8 +44,7 @@ prompts:
     content: "write a full story "
     role: system
 parameters:
-  char:
-    type: string
+  char: {}
   user:
     type: string
 name: Story - AMI

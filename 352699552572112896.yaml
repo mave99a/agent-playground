@@ -9,8 +9,7 @@ prompts:
 parameters:
   goal:
     type: string
-  plan:
-    type: string
+  plan: {}
 id: "352699552572112896"
 updatedAt: 2023-09-01T06:24:23.664Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og

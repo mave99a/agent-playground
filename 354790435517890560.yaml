@@ -65,8 +65,11 @@ prompts:
         技术框架 ("ArcBlock", "Blocklet", "LLM", "AI")
       }]
     role: system
-  - id: KeW4uTZNJuwBu49m2Uz2Z
+  - content: "{{story}}"
+    id: KeW4uTZNJuwBu49m2Uz2Z
     role: system
+parameters:
+  story: {}
 name: W++ test 写小说
 id: "354790435517890560"
 updatedAt: 2023-09-07T00:54:57.680Z

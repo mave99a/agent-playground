@@ -24,21 +24,9 @@ prompts:
       {{agent_scratchpad}}
     role: system
 parameters:
-  tools:
-    multiline: true
-    value: |-
-      搜索工具： 可以搜索各种结果
-      笔记本： 可以记录笔记
-      写信：写信给别人
-      游行： 向政府和公众表达自己的呼声
-      记者会：让媒体表达公众的呼声
-    type: string
-  input:
-    value: 如何发现ABT是不是一个好的投资
-    type: string
-  agent_scratchpad:
-    multiline: true
-    type: string
+  tools: {}
+  input: {}
+  agent_scratchpad: {}
 name: agent
 description: 简单的agent，来自https://www.zhihu.com/question/604480991/answer/3080252928
 id: "352325968133619712"

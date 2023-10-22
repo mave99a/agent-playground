@@ -10,9 +10,7 @@ prompts:
       Please make the option very short,  one option each line.
     role: user
 parameters:
-  goal:
-    value: enjoy life
-    type: string
+  goal: {}
 name: Archive a user goal
 next:
   id: "352702602833559552"

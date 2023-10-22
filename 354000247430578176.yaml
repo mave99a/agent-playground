@@ -35,9 +35,7 @@ parameters:
   user:
     value: 老冒
     type: string
-  char:
-    value: 伊伊
-    type: string
+  char: {}
 next:
   id: "353993117277356032"
   name: translate to chinese

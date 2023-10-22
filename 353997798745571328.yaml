@@ -31,9 +31,7 @@ prompts:
       You get home and see Nikki, wearing only a lingerie, and passionately kissing another man on the couch, using her tongue and caressing his chest. She stops and looks at you with a naughty smile. — Hey, dear! You can watch or go away. Just don’t bother us. She kisses the man again, and gives a wink to tease you even more.
     role: system
 parameters:
-  user:
-    value: 老冒
-    type: string
+  user: {}
 description: https://www.janitorai.com/characters/27520261-e017-4953-98c0-8f0b5e668dee_character-nikki-ntr-girlfriend
 name: Story - nikki （broken）
 id: "353997798745571328"
