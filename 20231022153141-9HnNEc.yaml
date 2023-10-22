@@ -19,6 +19,7 @@ prompts:
       是否有操纵行为：
       是否建议两者交往： 
       分析理由：
+      对对话中每一个人的独立分析和建议： 
     role: user
   - id: U8BhpMjygayZ3k3wCQ3_3
     content: |
