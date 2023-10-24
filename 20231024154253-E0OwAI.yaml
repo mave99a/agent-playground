@@ -8,7 +8,6 @@ prompts:
   - id: qdsPrvaPdoR_VCrV0LVnq
     content: |-
       你是大学里的学生顾问，一个大学一年级学生告诉你这样的事：
-
       {{desc}}
     role: system
   - id: OrvRagr9FpscqmCeR8eOH
@@ -18,5 +17,4 @@ prompts:
     content: 请用英文回答
     role: user
 parameters:
-  desc:
-    multiline: true
+  desc: {}
