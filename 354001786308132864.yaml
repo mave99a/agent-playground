@@ -45,8 +45,7 @@ prompts:
     role: system
 parameters:
   char: {}
-  user:
-    type: string
+  user: {}
 name: Story - AMI
 next:
   id: "353993117277356032"
