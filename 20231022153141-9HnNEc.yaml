@@ -11,21 +11,10 @@ prompts:
       尤其需要判断对方是否是一个情感操纵者，是否对用户存在刻意的打压、欺骗、自我贬低等话术操纵的行为。
     role: system
   - id: gSMrhSrc4ui7u_-0Ui7r6
-    content: |-
-      ## 输出格式 ##
-      两者关系：
-      关系是否健康：
-      是否是恋人：
-      是否有操纵行为：
-      是否建议两者交往： 
-      分析理由：
-      对对话中每一个人的独立分析和建议： 
+    content: "## 输出格式 ##两者关系：关系是否健康：是否是恋人：是否有操纵行为：是否建议两者交往： 分析理由：对对话中每一个人的独立分析和建议： "
     role: user
   - id: U8BhpMjygayZ3k3wCQ3_3
-    content: |
-      下面是用户和其朋友之间的对话： 
-
-      {{conversation}}
+    content: 下面是用户和其朋友之间的对话： {{conversation}}
     role: user
   - id: iKcbHiUK6DCaEhP4e6iIn
     content: 如果不能判断，请告诉用户不能判断的原因（例如内容过少等），请严格按照 “输出格式” 来输出。
