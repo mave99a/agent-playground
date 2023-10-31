@@ -9,7 +9,22 @@ prompts:
 parameters:
   goal:
     type: string
-  plan: {}
+  plan:
+    multiline: true
 id: "352699552572112896"
 updatedAt: 2023-09-01T06:24:23.664Z
 updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
+tests:
+  - id: 1698733210449-NjfMEqkRJ01T-xlr
+    parameters:
+      goal: find a job in AI market
+      plan: >-
+        1. create a open source AI project and make myself recognized in the
+        community 
+
+        2. write a blog talking about AI and my project
+
+        3. attend meetups and events in AI and let myself and my project known 
+
+        4. let my contacts in the industry know I am looking for a new job
+    createdBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
