@@ -50,8 +50,8 @@ prompts:
       (Don't rush through the scene, go slow and descriptive)
     role: user
   - id: J8qcZew4yJBurpRPJAIiO
-    content: write of story of their first romantic date night together
-    role: system
+    content: write a story about they have conflict after a dinner
+    role: user
 parameters:
   user: {}
   name: {}
