@@ -50,11 +50,14 @@ prompts:
       (Don't rush through the scene, go slow and descriptive)
     role: user
   - id: J8qcZew4yJBurpRPJAIiO
-    content: write a story about they have conflict after a dinner
+    content: "write a story based on following instruct: {{ story }}"
     role: user
 parameters:
   user: {}
   name: {}
+  story:
+    type: string
+    multiline: true
 name: story - Rika
 next:
   id: "353993117277356032"
