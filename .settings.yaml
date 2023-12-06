@@ -1,0 +1,17 @@
+_id: Kp2AjeDyp8WKDMPg
+name: Agent playground
+description: playground for all kind of agents, include W++ prompts etc.
+model: gpt-3.5-turbo
+createdAt: 2023-08-31T05:37:32.902Z
+updatedAt: 2023-12-06T07:33:35.617Z
+createdBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
+updatedBy: z1XzhTcWwDUvsuoyzRjommRFZNgSz54x3og
+pinnedAt: null
+icon: https://www.robertmao.com/image-bin/uploads/937950d97affe8e93df7523e1cc65929.png
+gitType: null
+temperature: null
+topP: null
+presencePenalty: null
+frequencyPenalty: null
+maxTokens: null
+gitAutoSync: true
